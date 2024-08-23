@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    /* font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter; */
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+.nav{
+    height: 67px;
+    width: 100vw;
+    position:sticky;
+    top: 0px;
+    background-color: rgb(250, 254, 254);
+    display: flex;
+    align-items: center;
+    justify-content:left;
+   cursor: pointer;
+}
+ img{
+   
+    height: 40px;
+    width: 160px;
+
+    
+}
+
+
+.mag{
+    width: 44px;
+    height: 37px;
+    border-radius:5px 0 0 5px;
+    border: 1px solid gray;
+    margin: 15px 0 15px 40px;
+    background-color: transparent;
+}
+.mag img{
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+}
+.nav input{
+    height: 35px;
+    width: 700px;
+    border-radius:0 5px 5px 0;
+    border: 1px solid gray;
+    background-color: white;
+    color:transparent;
+}
+.account{
+    margin: 15px;
+    display: flex;
+    align-items:center;
+}
+.account img{
+    height: 24px;
+    width: 24px;
+}
+.account span{
+font-size: 19px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+}
+.images img{
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+    margin-left: 10px;
+}
+.images span{
+    font-size: 19px;
+    height: 24px;
+    margin-right: 50px;}
+body{
+    background-color: rgb(246, 237, 237);
+}
+
+#products{
+    height: 126px;
+    background-color: rgb(254, 254, 254);
+    margin:8px 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#products div{
+    height: 126px;
+    width: 126px;
+    margin: 0px;
+    background-color: white;
+    padding:0 5px;
+}
+#products div img{
+    height: 64px;
+    width: 64px;
+    padding: 20px 30px 0px 30px;
+}
+#products div span{
+   font-size: 17px;
+    padding: 0px 30px 0px 30px;
+}
+#slide{
+    height: 265px;
+   
+    margin:20px 15px 0 15px;
+}
+#slide img{
+    height: 250px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+
+.section{
+    height: 64px;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0px 15px 0px 15px;
+}
+.writing{
+    
+    background-color: white;
+    padding-left: 50pxpx;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+.highlight{
+    height: 340px;
+    background-color: white;
+    width: 98%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    /* overflow: scroll; */
+    margin-bottom: 20px;
+}
+.out{
+    
+    border: 1px solid rgb(190, 185, 185);
+    box-shadow: 4px;
+    border-radius:6px ;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    margin-left: 13px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+    color: gray;
+   
+}
+
+.hi{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+.out img{
+    width: 185px;
+    height: 195px;
+    margin: 0px 0px 0 0;
+    padding-left:4px ;
+
+
+}
+.one highlight{
+    width: 75vw;
+    overflow: scroll;}
+.grid{
+    height: 1290px;
+    width: 97vw;
+    margin: 15px;
+    /* background-color: skyblue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    }
+    .inside{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:30px 1fr 1fr;
+
+        grid-template-areas: "title title"
+                             "box box"
+                             "box box";
+        background-color: white;
+        gap: 10px;
+        row-gap: 10px;
+        padding: 25px;
+    }
+    .insidest{
+        margin:   0px;
+        border: 1px solid gray;
+       border-radius: 5px;
+
+    }
+    .title{
+        grid-row: 1/2;
+        grid-column: 1/4;
+    }
+    .insidest img{
+        height: 190px;
+        width: 190px;
+        padding: 6px;
+    }
+    .info{
+        height: 265px;
+        width: 1350px;
+        background-color: rgb(0,0 ,0 ,0.88);
+        color: white;
+        padding: 40px 60px 0;
+        display: grid;
+        grid-template-columns: 1fr 0.8fr 1fr  1.2fr 2px 1.65fr 1.5fr;
+        column-gap: 16px;
+        
+    }
+    .cnt{
+       list-style: none;
+       
+    }
+    h6{
+        color: gray;
+        font-size: 14px;
+    }
+   .cnt ul{
+        font-size: 14px;
+        margin-top: 8px;
+        font-weight: bold;
+    }
+    .cnts{
+        color: rgb(249, 247, 247);
+        font-size: 13px;
+        list-style: none;
+    }
+    .cnts ul{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    
